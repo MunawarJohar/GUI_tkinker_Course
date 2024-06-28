@@ -1,0 +1,1 @@
+input the size in user and display

@@ -1,0 +1,18 @@
+who to show image in tkinter
+
+image is label 
+from tkinter import*
+#from PIL import Image,ImageTk
+
+ali_root=Tk()
+
+ali_root.geometry("900x900")
+photo=PhotoImage(file="profile.PNG")
+
+kamal_Label=Label(image=photo)
+kamal_Label.pack()
+
+ali_root.mainLoop(
+    
+
+    #pip install pillow

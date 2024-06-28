@@ -1,0 +1,33 @@
+from tkinter import*
+
+
+root=Tk()
+
+#def sub():
+#    print("")
+def sub():
+    print("Congrualation your form has been sucessfully submited")
+
+root.title("Quiz")
+
+root.geometry("555x400")
+
+name=Label(root,text="Name")
+password=Label(root,text="Password")
+name.grid(row=0,column=1)
+password.grid(row=1,column=1)
+
+namevalue=StringVar()
+passwordvalue=StringVar()
+
+
+nameentry=Entry(root,textvariable=namevalue)
+passwordentry=Entry(root,textvariable=passwordvalue)
+nameentry.grid(row=0,column=2)
+passwordentry.grid(row=1,column=2)
+
+b1=Button(text="submit now",bg="green",fg="red",command=sub)
+b1.grid(row=2,column=2)
+
+
+root.mainloop()

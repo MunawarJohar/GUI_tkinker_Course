@@ -1,0 +1,21 @@
+Our GUI Window
+
+label label is a widgets the user is not interect with label
+
+from tkinter import*
+computer_root=Tk()
+
+#width and height 
+
+computer_root.geometry("444x440")
+
+#for minsize
+computer_root.minsize(300,100)
+
+#for max size
+computer_root.maxsize(1200,900)
+
+munawar=label(text="This is a tkinter GUI tutorial")
+munawar.pack()
+
+computer_root.mainloop()
